@@ -1,0 +1,26 @@
+html{
+    background: url(img/background.png);
+}
+
+
+div#memoryBoard {
+    background: clear;
+    border: #999 1px solid;
+    width: 1000px;
+    height: 640px;
+    padding: 24px;
+    margin: auto;
+}
+
+div#memoryBoard > div {
+    background: url(img/Block.png) no-repeat;
+    border: #000 1px solid;
+    width: 95px;
+    height: 95px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;    
+}
